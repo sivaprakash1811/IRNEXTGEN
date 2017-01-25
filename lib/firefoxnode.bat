@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.53.1.jar -port 5557 -role node -hub http://localhost:4444/grid/register -browser "browserName=firefox, maxInstances=3, platform=WINDOWS, seleniumProtocol=WebDriver"
